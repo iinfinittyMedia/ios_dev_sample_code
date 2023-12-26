@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1225792B39828D00260E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1225782B39828D00260E32 /* AppDelegate.swift */; };
+		CE12257C2B39A44900260E32 /* One-Minute-Timer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE12257B2B39A44900260E32 /* One-Minute-Timer-Info.plist */; };
+		CE4D86B82B389E950093584F /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D86B72B389E950093584F /* LaunchView.swift */; };
+		CE4D86BA2B389F1E0093584F /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D86B92B389F1E0093584F /* LaunchScreenView.swift */; };
+		CEBBD2CF2B37276E00D8C960 /* OneMinuteTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBD2CE2B37276E00D8C960 /* OneMinuteTimerApp.swift */; };
+		CEBBD2D12B37276E00D8C960 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBD2D02B37276E00D8C960 /* TimerView.swift */; };
+		CEBBD2D32B37277000D8C960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBBD2D22B37277000D8C960 /* Assets.xcassets */; };
+		CEBBD2D62B37277000D8C960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBBD2D52B37277000D8C960 /* Preview Assets.xcassets */; };
+		CEBBD2DD2B37278400D8C960 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBD2DC2B37278400D8C960 /* TimerViewModel.swift */; };
+		CEBBD2EB2B374FE700D8C960 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBD2EA2B374FE700D8C960 /* Constants.swift */; };
+		CEBBD2F32B376B4700D8C960 /* CircularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBD2F22B376B4700D8C960 /* CircularButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE1225782B39828D00260E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE12257B2B39A44900260E32 /* One-Minute-Timer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "One-Minute-Timer-Info.plist"; sourceTree = "<group>"; };
+		CE4732E02B39D5E8000A8986 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE4D86B72B389E950093584F /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		CE4D86B92B389F1E0093584F /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		CEBBD2CB2B37276E00D8C960 /* One Minute Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Minute Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBBD2CE2B37276E00D8C960 /* OneMinuteTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMinuteTimerApp.swift; sourceTree = "<group>"; };
+		CEBBD2D02B37276E00D8C960 /* TimerView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		CEBBD2D22B37277000D8C960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBBD2D52B37277000D8C960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEBBD2DC2B37278400D8C960 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		CEBBD2EA2B374FE700D8C960 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CEBBD2F22B376B4700D8C960 /* CircularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBBD2C82B37276E00D8C960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4D86BB2B396CC80093584F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CEBBD2C22B37276E00D8C960 = {
+			isa = PBXGroup;
+			children = (
+				CE4732E02B39D5E8000A8986 /* README.md */,
+				CEBBD2CD2B37276E00D8C960 /* One Minute Timer */,
+				CEBBD2CC2B37276E00D8C960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBBD2CC2B37276E00D8C960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBD2CB2B37276E00D8C960 /* One Minute Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBBD2CD2B37276E00D8C960 /* One Minute Timer */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D86BB2B396CC80093584F /* Protocols */,
+				CEBBD2F12B376B1C00D8C960 /* Components */,
+				CEBBD2DF2B373F2500D8C960 /* App */,
+				CEBBD2DE2B373EFD00D8C960 /* View */,
+				CEBBD2E12B373F4B00D8C960 /* ViewModel */,
+				CEBBD2E22B373F9400D8C960 /* Model */,
+				CEBBD2E32B373F9A00D8C960 /* Extensions */,
+				CEBBD2D42B37277000D8C960 /* Preview Content */,
+				CEBBD2E02B373F3500D8C960 /* Resources */,
+			);
+			path = "One Minute Timer";
+			sourceTree = "<group>";
+		};
+		CEBBD2D42B37277000D8C960 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBD2D52B37277000D8C960 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEBBD2DE2B373EFD00D8C960 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBD2D02B37276E00D8C960 /* TimerView.swift */,
+				CE4D86B72B389E950093584F /* LaunchView.swift */,
+				CE4D86B92B389F1E0093584F /* LaunchScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEBBD2DF2B373F2500D8C960 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE12257B2B39A44900260E32 /* One-Minute-Timer-Info.plist */,
+				CEBBD2CE2B37276E00D8C960 /* OneMinuteTimerApp.swift */,
+				CE1225782B39828D00260E32 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEBBD2E02B373F3500D8C960 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBD2EA2B374FE700D8C960 /* Constants.swift */,
+				CEBBD2D22B37277000D8C960 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEBBD2E12B373F4B00D8C960 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBD2DC2B37278400D8C960 /* TimerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEBBD2E22B373F9400D8C960 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEBBD2E32B373F9A00D8C960 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CEBBD2F12B376B1C00D8C960 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBD2F22B376B4700D8C960 /* CircularButtonStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBBD2CA2B37276E00D8C960 /* One Minute Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBBD2D92B37277000D8C960 /* Build configuration list for PBXNativeTarget "One Minute Timer" */;
+			buildPhases = (
+				CEBBD2C72B37276E00D8C960 /* Sources */,
+				CEBBD2C82B37276E00D8C960 /* Frameworks */,
+				CEBBD2C92B37276E00D8C960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One Minute Timer";
+			productName = "One Minute Timer";
+			productReference = CEBBD2CB2B37276E00D8C960 /* One Minute Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBBD2C32B37276E00D8C960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CEBBD2CA2B37276E00D8C960 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = CEBBD2C62B37276E00D8C960 /* Build configuration list for PBXProject "One Minute Timer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBBD2C22B37276E00D8C960;
+			productRefGroup = CEBBD2CC2B37276E00D8C960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBBD2CA2B37276E00D8C960 /* One Minute Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBBD2C92B37276E00D8C960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE12257C2B39A44900260E32 /* One-Minute-Timer-Info.plist in Resources */,
+				CEBBD2D62B37277000D8C960 /* Preview Assets.xcassets in Resources */,
+				CEBBD2D32B37277000D8C960 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBBD2C72B37276E00D8C960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1225792B39828D00260E32 /* AppDelegate.swift in Sources */,
+				CEBBD2F32B376B4700D8C960 /* CircularButtonStyle.swift in Sources */,
+				CEBBD2D12B37276E00D8C960 /* TimerView.swift in Sources */,
+				CEBBD2DD2B37278400D8C960 /* TimerViewModel.swift in Sources */,
+				CE4D86BA2B389F1E0093584F /* LaunchScreenView.swift in Sources */,
+				CEBBD2EB2B374FE700D8C960 /* Constants.swift in Sources */,
+				CE4D86B82B389E950093584F /* LaunchView.swift in Sources */,
+				CEBBD2CF2B37276E00D8C960 /* OneMinuteTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEBBD2D72B37277000D8C960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBBD2D82B37277000D8C960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBBD2DA2B37277000D8C960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"One Minute Timer/Preview Content\"";
+				DEVELOPMENT_TEAM = NP36B7ZR3N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "One-Minute-Timer-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.saqlayn.omt.www.OneMinuteTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBBD2DB2B37277000D8C960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"One Minute Timer/Preview Content\"";
+				DEVELOPMENT_TEAM = NP36B7ZR3N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "One-Minute-Timer-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.saqlayn.omt.www.OneMinuteTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBBD2C62B37276E00D8C960 /* Build configuration list for PBXProject "One Minute Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBBD2D72B37277000D8C960 /* Debug */,
+				CEBBD2D82B37277000D8C960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBBD2D92B37277000D8C960 /* Build configuration list for PBXNativeTarget "One Minute Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBBD2DA2B37277000D8C960 /* Debug */,
+				CEBBD2DB2B37277000D8C960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBBD2C32B37276E00D8C960 /* Project object */;
+}
